@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'assign',
+  srcs = [
+    'optional_test_assign.cpp',
+  ],
+  deps = [
+    '//:optional',
+  ],
+)
